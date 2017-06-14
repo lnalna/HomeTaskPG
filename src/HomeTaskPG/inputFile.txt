@@ -1,0 +1,4 @@
+obj1 : param1=1, param2=45
+obj3 (obj1, obj2)
+obj2 : param1=21
+obj4 (obj3) : param3 = 47
