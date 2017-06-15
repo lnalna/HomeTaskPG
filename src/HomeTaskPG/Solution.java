@@ -13,9 +13,9 @@ public class Solution {
 
     public static class ObjectProperties implements Comparable<ObjectProperties> {
 
-        String objectName;//идентификатор объекта
-        ArrayList<String> parentName = new ArrayList<>();//список родительских объектов
-        HashMap<String, String> paramName = new HashMap<>();//список параметров
+        private String objectName;//идентификатор объекта
+        private ArrayList<String> parentName = new ArrayList<>();//список родительских объектов
+        private HashMap<String, String> paramName = new HashMap<>();//список параметров
 
         public ObjectProperties() {
         }
